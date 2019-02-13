@@ -207,6 +207,13 @@ This setting toggles showing type signatures in the complete menu.
 This setting toggles whether the current buffer should be formatted on save.
 >
   let g:elm_format_autosave = 0
+
+
+                                                      *'g:elm_version'*
+
+This setting specifies the Elm version of the source files being formatted.
+>
+  let g:elm_version = auto
 <
 
                                                  *'g:elm_format_fail_silently'*

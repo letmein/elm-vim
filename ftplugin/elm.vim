@@ -27,6 +27,10 @@ if !exists('g:elm_format_autosave')
 	let g:elm_format_autosave = 1
 endif
 
+if !exists('g:elm_version')
+	let g:elm_version = 'auto'
+endif
+
 if !exists('g:elm_format_fail_silently')
     let g:elm_format_fail_silently = 0
 endif
